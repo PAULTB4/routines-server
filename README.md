@@ -1,7 +1,7 @@
-# Gym Clients Service 🏋️‍♂️
+# Gym Routines Service 🏋️‍♀️
 
-Microservicio para la gestión de clientes del gimnasio.  
-Construido con **Spring Boot** y preparado para integrarse con otros microservicios como rutinas.
+Microservicio para la gestión de rutinas del gimnasio.  
+Construido con **Spring Boot** e integrado con el microservicio de clientes.
 
 ---
 
@@ -9,16 +9,16 @@ Construido con **Spring Boot** y preparado para integrarse con otros microservic
 - Java 17+
 - Spring Boot
 - Maven
-- PostgreSQL 
+- PostgreSQL (u otra base de datos)
 
 ---
 
 ## ⚙️ Ejecución
 
 ### Requisitos
-- JDK instalado (`java -17`)
+- JDK instalado (`java -version`)
 - Maven (`mvn -v`)
-- PostgreSQL en ejecución
+- Base de datos activa (ejemplo: PostgreSQL)
 
 ### Comandos
 ```bash
